@@ -1,0 +1,24 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<ViewSettingsDialog
+		confirm="handleConfirm">
+		<sortItems>
+			<ViewSettingsItem text="Customer ID" key="CustomerID" selected="true"/>
+			<ViewSettingsItem text="Contact Name" key="ContactName" />
+			<ViewSettingsItem text="Phone" key="Phone" />
+		</sortItems>
+		<filterItems>
+			<ViewSettingsFilterItem
+				text="CustomerID"
+				key="CustomerID"
+				multiSelect="false">
+				<items>
+					<ViewSettingsItem text="ALFKI" key="CustomerID___EQ___ALFKI___X" />
+					<ViewSettingsItem text="ANATR" key="CustomerID___EQ___ANATR___X" />
+					<ViewSettingsItem text="BLONP" key="CustomerID___EQ___BLONP___X" />
+				</items>
+			</ViewSettingsFilterItem>
+		</filterItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>
