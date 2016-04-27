@@ -16,7 +16,7 @@ sap.ui.jsview("app.main", {
 	createContent : function(oController) {
 		var app = new sap.m.App("myApp",{});
 		
-		app.setBackgroundImage("img/3.jpg");
+		//app.setBackgroundImage("img/3.jpg");
 
 		var aColumn1 = [
 			new sap.m.Column({
