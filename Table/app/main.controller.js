@@ -1,7 +1,4 @@
 
-var dModel = new sap.ui.model.json.JSONModel();
-			var aModel = new sap.ui.model.json.JSONModel();
-			var id;		
 sap.ui.controller("app.main", {
 
 /**
