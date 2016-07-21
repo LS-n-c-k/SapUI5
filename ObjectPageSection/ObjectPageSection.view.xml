@@ -1,0 +1,81 @@
+<core:View xmlns:core="sap.ui.core"
+		   xmlns="sap.uxap"
+		   xmlns:layout="sap.ui.layout"
+		   xmlns:m="sap.m"
+		   controllerName="sap.uxap.sample.ObjectPageSection.ObjectPageSection"
+		   xmlns:sample="sap.uxap.sample.AnchorBar.block"
+		   xmlns:blockcolor="sap.uxap.sample.SharedBlocks"
+		   height="100%"
+		>
+
+	<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="false" tabSelect="tabChanged" useIconTabBar="true">
+		<headerTitle>
+			<ObjectPageHeader objectTitle="Section sample">
+			</ObjectPageHeader>
+		</headerTitle>
+
+		<headerContent>
+			<m:ObjectAttribute title="" text="This example explains the rules for the rendering of sections"/>
+		</headerContent>
+
+		<sections>
+			<ObjectPageSection title="Section 1">
+				<subSections>
+					<ObjectPageSubSection title="Subsection 1.1 ">
+						<blocks>
+							<m:Button text="Default"/>	
+						</blocks>
+					</ObjectPageSubSection>
+					<ObjectPageSubSection title="Subsection 1.2 ">
+						<blocks>
+							<m:Button text="Default"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Section 2">
+				<subSections>
+					<ObjectPageSubSection title=" ">
+						<blocks>
+							<m:Button text="Default2"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Section 3">
+				<subSections>
+					<ObjectPageSubSection title=" ">
+						<blocks>
+							<m:Button text="Default3"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Section 4">
+				<subSections>
+					<ObjectPageSubSection title="Subsection 4.1 ">
+						<blocks>
+							<m:Button text="Default4"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Section 5">
+				<subSections>
+					<ObjectPageSubSection title=" ">
+						<blocks>
+							<m:Button text="Default5"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+
+		</sections>
+
+	</ObjectPageLayout>
+</core:View>
